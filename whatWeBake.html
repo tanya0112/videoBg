@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .menu1 {
+            background-color: rgb(0, 0, 0, 0.3);
+            color: aliceblue;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            left: 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 100px;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: aliceblue;
+            display: block;
+            float: left;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .img1,
+        .img2,
+        .img3,
+        .img4 {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img1 {
+            background-image: url(https://images.unsplash.com/photo-1618426703263-9b751af305a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+            height: 600px;
+        }
+
+        .img2 {
+            background-image: url(https://images.unsplash.com/photo-1601409751311-cbecfe223af4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+            height: 600px;
+        }
+
+        .img3 {
+            background-image: url(https://images.unsplash.com/photo-1603292360730-d4990b0f448b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+            height: 600px;
+        }
+
+        .img4 {
+            background-image: url(https://images.unsplash.com/photo-1454641350786-bc31a1997ba9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+            height: 600px;
+        }
+
+        .text {
+            padding: 20px;
+        }
+
+        span {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        @media all and (max-width:991px) {
+            .menu1 {
+                display: block;
+                overflow: hidden;
+
+            }
+
+            .menu1 a {
+                background-size: cover;
+                display: block;
+                width: 100%;
+                padding: 2px 1px;
+                margin:2px 2px;
+            }
+
+            .menu1 h2 {
+                display: block;
+                position: relative;
+                top: -10px;
+
+            }
+
+            span {
+                font-size: 1.6em;
+            }
+
+            .menu1 a:hover {
+                color: black;
+                background-color:transparent;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="menu1">
+        <h2 class="logo">Bakers</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#">What we bake</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="img1">
+        <span>
+            Remember, no matter what life throws at us, we can always bake a cake!
+            <br> -Sarah Ban Breathnach
+        </span>
+    </div>
+    <section class="sec1">
+        <div class="text">
+            <h2>Cakes</h2>
+            <p>Cakes are love! No matter what shape, size or flavour they come in, we love it all. Any celebration,
+                event, and the occasion are incomplete without a cake cutting. This delicious delight is made from eggs,
+                sugar, flour, oil, milk and butter. <br>
+                <b>We bake</b><br>
+                <b>Gooey butter cake:</b><br>
+                Butter cakes are made from creamed butter, sugar, eggs, and flour.
+                <br>
+
+                <b>Sponge cake:</b>
+                <br>
+                Steamed sponge cake called ma lai gao
+                Sponge cakes (or foam cakes) are made from whipped eggs, sugar, and flour.
+                <br>
+                <b>Chocolate Cakes:</b><br>
+                Chocolate cakes are butter cakes, sponge cakes, or other cakes flavored with melted chocolate or cocoa
+                powder.
+                <br>
+                <b>Coffee cake:</b><br>
+                Coffee cake is generally thought of as a cake to serve with coffee or tea at breakfast or a coffee
+                break.
+                <br>
+                <b>Flourless cake:</b><br>
+                Baked flourless cakes include baked cheesecakes and flourless chocolate cakes.
+                <br>
+                <b>Layer cakes:</b><br>
+                Layer cakes are cakes made with layers of sponge or butter cake, filled with cream, jam or other filling
+                to hold the layers together.<br>
+
+                <b>One egg cake:</b><br>
+                One egg cakes are made with one egg.
+            </p>
+        </div>
+    </section>
+    <div class="img2">
+        <span>Happiness is freshly baked muffins.</span>
+
+    </div>
+    <section class="sec2">
+        <div class="text">
+            <h2>Muffins</h2>
+            <p>A muffin is an individual-sized, baked product. It can refer to two distinct items, a part-raised
+                flatbread that is baked and then cooked on a griddle (typically unsweetened) and a cupcake-like
+                quickbread (often sweetened) that is chemically leavened and then baked in a mold.<br>
+                We Bake<br>
+                <b>Apple-Cinnamon Muffins</b> <br>
+                These apple-cinnamon muffins pack a huge apple flavor thanks to apple cider and chopped apples, with a
+                fabulous cinnamon-sugar crunch on top.<br>
+                <b>Banana Muffins</b> <br>
+                These have been a favorite of mine for over 10 years. It’s one of the first recipes I started baking
+                over and over again. They’re sweet and delicious – breakfast or dessert!<br>
+                <b> Berrylicious Blueberry Muffins</b> <br>
+                These blueberry muffins are loaded with fresh blueberries, have a fresh blueberry jam swirl throughout
+                and are topped with sugar for a crunchy bite!<br>
+                <b> Cornbread Muffins</b> <br>
+                These savory corn muffins are loaded with corn flavor and are the perfect accompaniment to chili or your
+                favorite stew.<br>
+                <b>Triple Chocolate Chunk Muffins</b> <br>
+                These chocolate muffins have cocoa powder and dark chocolate in the batter, with chocolate chips added
+                to the batter.<br>
+                <b>Zucchini-Chocolate Chip Muffins</b> <br>
+                These zucchini-chocolate chip muffins are super quick, insanely moist, and a great way to use up the
+                late summer zucchini bounty!<br>
+
+            </p>
+        </div>
+    </section>
+    <div class="img3">
+        <span> And the doughnut wore a glazed expression as it was about to be devoured. </span>
+    </div>
+    <section class="sec3">
+        <div class="text">
+            <h2>Donuts</h2>
+            <p>Doughnuts are usually deep fried from a flour dough, but other types of batters can also be used. Various
+                toppings and flavorings are used for different types, such as sugar, chocolate, or maple glazing.
+                Doughnuts may also include water, leavening, eggs, milk, sugar, oil, shortening, and natural or
+                artificial flavors.<br>
+                We Bake<br>
+                <b>Apple-Cinnamon Muffins</b> <br>
+                These apple-cinnamon muffins pack a huge apple flavor thanks to apple cider and chopped apples, with a
+                fabulous cinnamon-sugar crunch on top.<br>
+                <b>Banana Muffins</b> <br>
+                These have been a favorite of mine for over 10 years. It’s one of the first recipes I started baking
+                over and over again. They’re sweet and delicious – breakfast or dessert!<br>
+                <b> Berrylicious Blueberry Muffins</b> <br>
+                These blueberry muffins are loaded with fresh blueberries, have a fresh blueberry jam swirl throughout
+                and are topped with sugar for a crunchy bite!<br>
+                <b> Cornbread Muffins</b> <br>
+                These savory corn muffins are loaded with corn flavor and are the perfect accompaniment to chili or your
+                favorite stew.<br>
+                <b>Triple Chocolate Chunk Muffins</b> <br>
+                These chocolate muffins have cocoa powder and dark chocolate in the batter, with chocolate chips added
+                to the batter.<br>
+                <b>Zucchini-Chocolate Chip Muffins</b> <br>
+                These zucchini-chocolate chip muffins are super quick, insanely moist, and a great way to use up the
+                late summer zucchini bounty!<br>
+            </p>
+        </div>
+    </section>
+    <div class="img4">
+        <span>Cookies are the sweetest little bit of comfort food. They are very bite sized and personal. <br>- Sandra
+            Lee
+        </span>
+    </div>
+    <section class="sec4">
+        <div class="text">
+            <h2>Cookies</h2>
+            <p>Most cookies are made from the same basic ingredients. The dry ingredients consist of all-purpose flour,
+                baking powder, baking soda, and salt. The sweetness comes from granulated and/or. The fat is either
+                softened butter, margarine, shortening, or occasionally oil.<br>
+                We Bake<br>
+                <b>Chocolate Chip Cookies</b> <br>Chocolate chip cookies are the perennial classic and longtime fan
+                favorite. They can be soft and chewy or crispy and crunchy depending on how you make them and the
+                ingredients you use.
+                <br>
+                <b>Shortbread Cookies</b> <br>
+                Shortbread cookies are made with a large amount of butter or shortening, which lends them the name
+                “short.” Due to their low amount of flour and sugar, they have a classic crumbly and tender texture.<br>
+                <b> Macaron Cookies</b> <br>Macarons are meringue-based cookies made with almond meal, egg whites, and
+                powdered sugar with a creme ganache in the middle.
+                <br>
+                <b>Macaroon Cookies</b> <br>
+                Quite different from macarons, macaroons are coconut based with a dense, lumpy texture that’s sweet and
+                chewy. Some macaroons are even dipped in chocolate for extra indulgence.<br>
+                <b>Biscotti Cookies</b> <br>
+                Biscotti actually means “twice baked” and the cookie is indeed baked twice, resulting in its hard and
+                crunchy texture. Biscotti come in a wide array of flavors and toppings, from plain almond to double
+                chocolate and so much more.<br>
+                <b>Oatmeal Raisin Cookies</b> <br>
+                Oatmeal raisin is a type of drop cookie. as its name suggests, it’s made with oats, and contains raisins
+                and brown sugar. They can be crispy and crunchy or chewy, depending on the ingredients you use and how
+                long you bake them. <br>
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
